@@ -183,7 +183,7 @@
 	[self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[tabScrollView]|" options:0 metrics:metricsDictionary views:viewsDictionary]];
 	[self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[pageControllerView]|" options:0 metrics:metricsDictionary views:viewsDictionary]];
 
-	[rootViewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[rootTopLayoutGuide][parentView][rootBottomLayoutGuide]" options:0 metrics:metricsDictionary views:viewsDictionary]];
+	[rootViewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[rootTopLayoutGuide]-44-[parentView][rootBottomLayoutGuide]" options:0 metrics:metricsDictionary views:viewsDictionary]];
 	[rootViewController.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[parentView]|" options:0 metrics:metricsDictionary views:viewsDictionary]];
 	
 	[indicator setTranslatesAutoresizingMaskIntoConstraints:NO];
